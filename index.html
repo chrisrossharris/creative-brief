@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<title>The Creative Brief</title>
+		<meta name="description" content="A distraction-free creative brief form concept with fancy animations." />
+		<meta name="keywords" content="fullscreen form, css animations, distraction-free, web design" />
+		<meta name="author" content="crh" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<link rel="stylesheet" type="text/css" href="css/cs-select.css" />
+		<link rel="stylesheet" type="text/css" href="css/cs-skin-boxes.css" />
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
+		<div class="container">
+
+			<div class="fs-form-wrap" id="fs-form-wrap">
+				<div class="fs-title">
+					<div class="header">
+						<h1>The Creative Brief</h1>
+						<div class="project-details">
+							<ul class="fs-fields">
+								<li>
+									<label class="fs-field-label" for="title">Project Title</label>
+									<input class="" id="title" name="title" type="text" placeholder="Untitled Project"/>
+								</li>
+								<li>
+									<label class="fs-field-label" for="client">Client</label>
+									<input class="" id="client" name="client" type="text" placeholder="ACME Inc."/>
+								</li>
+								<li>
+									<label class="fs-field-label" for="due">Due Date</label>
+									<input class="" id="due" name="due" type="date" placeholder="Untitled Project"/>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="codrops-top">
+						<a class="codrops-icon codrops-icon-prev" href="http://tympanus.net/Development/NotificationStyles/"><span>Back to All Briefs</span></a>
+						<a class="codrops-icon codrops-icon-share" href="http://tympanus.net/codrops/?p=19520"><span>Share link</span></a>
+						<a class="codrops-icon codrops-icon-info" href="#"><span>The best creatives are strategic problem solvers. State the objectives for this project as simply as possible. This creative brief is not to serve as a substitute for discussion between agency and client, nor is it a replacement for background materials to the scope of work.</span></a>
+					</div>
+					
+				</div>
+				<form id="myform" class="fs-form fs-form-full" autocomplete="off">
+					<ol class="fs-fields">
+						<li>
+							<label class="fs-field-label fs-anim-upper" for="q1"  data-info="The Audience — Be specific. (ie. Creative People 30-50 y/o, 50% male, 50% female)">Who are we talking to?</label>
+							<input class="fs-anim-lower" id="q1" name="q1" type="text" placeholder="Creative People" required/>
+						</li>
+						<li>
+							<label class="fs-field-label fs-anim-upper" for="q2" data-info="The Position — Decide what's most important.">What is the one thing you want to tell them?</label>
+							<input class="fs-anim-lower" id="q2" name="q2" placeholder="We make tools for creative people" required/>
+						</li>
+						<li>
+							<label class="fs-field-label fs-anim-upper" for="q3">What reasons support our position to the larger audience?</label>
+							<textarea class="fs-anim-lower" id="3" name="q3" placeholder="Our tools are simple which helps creatives focus"></textarea>
+						</li>
+						<li>
+							<label class="fs-field-label fs-anim-upper" for="q4" data-info="What action is most important? (ie. Buy a computer)">What do you want them to do?</label>
+							<input class="fs-anim-lower" id="q4" name="q4" placeholder="Go to website and sign up" required/>
+						</li>
+						<li data-input-trigger>
+							<label class="fs-field-label fs-anim-upper" for="q5" data-info="This will help us know what kind of experts you need">What channels are involved?</label>
+							<div class="fs-anim-lower checkboxes">
+							<input  type="checkbox" name="q5a" value="social" id="q5a"> 
+							<label for="q5a">Social Media</label>
+							<input  type="checkbox" name="q5b" value="interactive" id="q5b"> 
+							<label for="q5b">Interactive & VR</label>
+							<input  type="checkbox" name="q5c" value="podcasts" id="q5c"> 
+							<label for="q5c">Podcasts</label>
+						</div>
+							
+						</li>
+						<li>
+							<label class="fs-field-label fs-anim-upper" for="q6" data-info="Is there any fine print? (ie. Use co-branding logo, small disclaimer )">Are there any legal or logo requirements? If so, what are they?</label>
+							<input class="fs-anim-lower" id="q6" name="q6" placeholder="Use co-branding logo with partner brand" required/>
+						</li>
+						<!--
+						<li data-input-trigger>
+							<label class="fs-field-label fs-anim-upper" data-info="We'll make sure to use it all over">Choose a color for your website.</label>
+							<select class="cs-select cs-skin-boxes fs-anim-lower">
+								<option value="" disabled selected>Pick a color</option>
+								<option value="#588c75" data-class="color-588c75">#588c75</option>
+								<option value="#b0c47f" data-class="color-b0c47f">#b0c47f</option>
+								<option value="#f3e395" data-class="color-f3e395">#f3e395</option>
+								<option value="#f3ae73" data-class="color-f3ae73">#f3ae73</option>
+								<option value="#da645a" data-class="color-da645a">#da645a</option>
+								<option value="#79a38f" data-class="color-79a38f">#79a38f</option>
+								<option value="#c1d099" data-class="color-c1d099">#c1d099</option>
+								<option value="#f5eaaa" data-class="color-f5eaaa">#f5eaaa</option>
+								<option value="#f5be8f" data-class="color-f5be8f">#f5be8f</option>
+								<option value="#e1837b" data-class="color-e1837b">#e1837b</option>
+								<option value="#9bbaab" data-class="color-9bbaab">#9bbaab</option>
+								<option value="#d1dcb2" data-class="color-d1dcb2">#d1dcb2</option>
+								<option value="#f9eec0" data-class="color-f9eec0">#f9eec0</option>
+								<option value="#f7cda9" data-class="color-f7cda9">#f7cda9</option>
+								<option value="#e8a19b" data-class="color-e8a19b">#e8a19b</option>
+								<option value="#bdd1c8" data-class="color-bdd1c8">#bdd1c8</option>
+								<option value="#e1e7cd" data-class="color-e1e7cd">#e1e7cd</option>
+								<option value="#faf4d4" data-class="color-faf4d4">#faf4d4</option>
+								<option value="#fbdfc9" data-class="color-fbdfc9">#fbdfc9</option>
+								<option value="#f1c1bd" data-class="color-f1c1bd">#f1c1bd</option>
+							</select>
+						</li>
+						<li>
+							<label class="fs-field-label fs-anim-upper" for="q4">Describe how you imagine your new website</label>
+							<textarea class="fs-anim-lower" id="q4" name="q4" placeholder="Describe here"></textarea>
+						</li>
+						<li>
+							<label class="fs-field-label fs-anim-upper" for="q5">What's your budget?</label>
+							<input class="fs-mark fs-anim-lower" id="q5" name="q5" type="number" placeholder="1000" step="100" min="100"/>
+						</li>
+						-->
+					</ol><!-- /fs-fields -->
+					<button class="fs-submit" type="submit">Save brief</button>
+				</form><!-- /fs-form -->
+			</div><!-- /fs-form-wrap -->
+
+			<!-- Related demos 
+			<div class="related">
+				<p>If you enjoyed this demo you might also like:</p>
+				<a href="http://tympanus.net/Development/MinimalForm/">
+					<img src="img/relatedposts/minimalform1-300x162.png" />
+					<h3>Minimal Form Interface</h3>
+				</a>
+				<a href="http://tympanus.net/Development/ButtonComponentMorph/">
+					<img src="img/relatedposts/MorphingButtons-300x162.png" />
+					<h3>Morphing Buttons Concept</h3>
+				</a>
+			</div>
+			-->
+		</div><!-- /container -->
+		<script src="js/classie.js"></script>
+		<script src="js/selectFx.js"></script>
+		<script src="js/fullscreenForm.js"></script>
+		<script>
+			(function() {
+				var formWrap = document.getElementById( 'fs-form-wrap' );
+
+				[].slice.call( document.querySelectorAll( 'select.cs-select' ) ).forEach( function(el) {	
+					new SelectFx( el, {
+						stickyPlaceholder: false,
+						onChange: function(val){
+							document.querySelector('span.cs-placeholder').style.backgroundColor = val;
+						}
+					});
+				} );
+
+				new FForm( formWrap, {
+					onReview : function() {
+						classie.add( document.body, 'overview' ); // for demo purposes only
+					}
+				} );
+			})();
+		</script>
+	</body>
+</html>
